@@ -1,6 +1,6 @@
 = Google _'Untitled'_ Spam Spider
 
-A tiny web spider that starts crawling a web site and crawls as long as it can finds links on those pages, which links to simular spam pages.
+A tiny web spider that starts crawling a website and crawls as long as it can find links on those pages, which links to similar spam pages.
 
 This spider is targeting the 'Untitled' spam pages from the Google search results.
 
