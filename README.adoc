@@ -1,0 +1,20 @@
+= Google 'Untitled' Spam Spider
+
+A tiny web spider that starts crawling a web site and crawls as long as it can finds links on those pages, which links to simular spam pages.
+
+This spider is targeting the 'Untitled' spam pages from the Google search results.
+
+I wrote https://david.wolf.gdn/posts/spam/google-untitled/[several articles] about those spam pages. In which I discuss the underlying backgrounds of this spam network.
+
+== Usage
+
+[souce,python]
+----
+from google_spam_spider import GoogleSpamSpider
+
+spider = GoogleSpamSpider(
+    url='http://zone-casino.fr/2hephe/torch-functional-unfold.html', # The url to start crawling
+    direct_spam_logs='direct_spam.log', # The file to log direct spam
+    external_spam_logs='external_spam.log' # The file to log external spam
+    )
+----
