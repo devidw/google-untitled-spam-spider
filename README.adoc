@@ -6,6 +6,9 @@ This spider is targeting the 'Untitled' spam pages from the Google search result
 
 I wrote https://david.wolf.gdn/posts/spam/google-untitled/[several articles] about those spam pages. In which I discuss the underlying backgrounds of this spam network.
 
+[quote, David Wolf, 'https://david.wolf.gdn/i-crawled-105009-google-untitled-spam-pages-in-7-days-and-700504-other-linked-spam-pages/[david.wolf.gdn]']
+I crawled 105,009 Google 'Untitled' Spam Pages in 7 days and 700,504 other linked Spam Pages
+
 == Usage
 
 [source,python]
